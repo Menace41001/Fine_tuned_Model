@@ -40,7 +40,7 @@ This project demonstrates the end-to-end process of fine-tuning the Meta Llama-3
 
 The fine-tuning process was successful, as indicated by the training metrics. The model quickly learned to answer questions based on the provided constitutional data.
 
-![Training Graphs](image_c0bba7.png)
+![Training Graphs](graph.png)
 
 * **Training Loss (`train/loss`)**: The primary metric for learning. The loss showed a clear and steady downward trend, starting at **~2.2** and converging to an average of **~0.3** by the end of the 1022 steps. This demonstrates that the model was successfully learning the patterns in the custom dataset.
 * **Learning Rate (`train/learning_rate`)**: The graph shows the `linear` learning rate scheduler in action. It began with a warm-up phase for the first 5 steps, reaching the peak rate of `2e-4`, followed by a linear decay for the remainder of the training.
